@@ -1,0 +1,104 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "VantesRepository",
+				"abbreviation": "VLR",
+				"full": "Vante Leon's Repository",
+				"url": "",
+				"authors": [
+					"Vante Leon"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1609996027,
+		"dateLastModified": 1609996027
+	},
+	"spell": [
+		{
+			"name": "Telekinetic Control",
+			"source": "VantesRepository",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose an object, weighing less than 5 lbs, that you can see within range.  You may animate this object with flying speed of 30 and lasts for the spell's duration.",
+				"On your turn, the animated object may attack any creatures of your choosing within a 10 foot radius. Any creature targeted by this attack must make a Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} bludgeoning damage. On a successful save, the creature takes half as much damage.",
+				"As a bonus action, you can move the object up to its max speed in any direction."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels.",
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Aberrant Mind",
+							"source": "TCE"
+						}
+					}
+				]
+			}
+		}
+	]
+}
