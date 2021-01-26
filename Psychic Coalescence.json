@@ -1,0 +1,92 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "VantesRepository",
+				"abbreviation": "VLR",
+				"full": "Vante Leon's Repository",
+				"url": "",
+				"authors": [
+					"Vante Leon"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1611680596,
+		"dateLastModified": 1611680596
+	},
+	"spell": [
+		{
+			"name": "Psychic Coalescence",
+			"source": "VantesRepository",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You will your psychic energy into physical form, conjuring in your hand three gemstones filled with psionic energy. You or someone else can make a ranged spell attack with one of the gemstones by throwing it or hurling it with a {@item sling|phb}. If thrown, a gemstone has a range of 60 feet. If someone else attacks with a gemstone, that attacker adds your spellcasting ability modifier, not the attacker's, to the attack roll. On a hit, the target takes piercing damage equal to {@damage 1d6} + your spellcasting ability modifier. Whether the attack hits or misses, the spell effect then ends on that gemstone and it disappears.",
+				"If you cast this spell again, the spell ends on any gemstone still affected by your previous casting and they disappear."
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Abberant Mind",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"This spell's damage increases by {@damage 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+					]
+				}
+			]
+		}
+	]
+}
