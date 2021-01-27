@@ -1,0 +1,80 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "VantesRepository",
+				"abbreviation": "VLR",
+				"full": "Vante Leon's Repository",
+				"url": "",
+				"authors": [
+					"Vante Leon"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1611710011,
+		"dateLastModified": 1611710011
+	},
+	"spell": [
+		{
+			"name": "Psionic Barrier",
+			"source": "VantesRepository",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You channel an {@condition invisible} psionic barrier to diminish incoming attacks. When you cast this spell you gain a number of temporary hit points equal to {@dice 1d4} + your spellcasting ability modifier. The temporary hit points are lost when the spell ends."
+			],
+			"miscTags": [
+				"THP"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Abberant Mind",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		}
+	]
+}
